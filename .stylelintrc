@@ -1,0 +1,30 @@
+{
+  "processors": ["stylelint-processor-html"],
+  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": [
+          "composes"
+        ]
+      }
+    ],
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": [
+          "global"
+        ]
+      }
+    ],
+    "number-leading-zero": "always",
+    "selector-pseudo-element-colon-notation": "single",
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "no-empty-source": null
+  }
+}
