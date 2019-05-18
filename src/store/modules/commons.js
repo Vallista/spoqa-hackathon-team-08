@@ -10,6 +10,10 @@ const commons = {
   mutations: {
     changeModal: (state, name) => {
       state.modalState = name
+    },
+
+    clearModal: state => {
+      state.modalState = 'none'
     }
   },
 

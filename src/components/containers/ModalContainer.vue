@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import LoginModal from '../presentationals/organisms/LoginModal'
+import LoginModal from './LoginModalContainer'
 
 export default {
   name: 'ModalContainer',

@@ -1,5 +1,4 @@
 <template>
-  <!-- <img :src="src" class="image"> -->
   <div class="app-image" :style="{ backgroundImage: `url(${src})`}"></div>
 </template>
 
